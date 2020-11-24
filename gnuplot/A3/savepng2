@@ -1,0 +1,15 @@
+# File name: savepng - saves a plot as a png file 
+# to save the current plot as a png file issue the commands:
+#  gnuplot>   set out 'plotfile.png'
+#  gnuplot>   load 'savepng2'
+# png
+set terminal pngcairo size 700,525 enhanced font 'Verdana,14'
+
+# Line styles
+set border linewidth 1.5
+set style line 1 linecolor rgb '#0060ad' linetype 1 linewidth 2  # blue
+set style line 2 linecolor rgb '#dd181f' linetype 1 linewidth 2  # red
+replot
+set terminal wxt
+set size 1,1
+

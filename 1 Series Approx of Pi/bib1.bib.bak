@@ -1,0 +1,40 @@
+@MISC{Leibniz,
+	HOWPUBLISHED = "\url{https://laulima.hawaii.edu/x/5AbGfV}",
+	AUTHOR = "Gorham, Peter",
+	TITLE = "PHYS305 Lab 1",
+	MONTH = "Jan",
+	YEAR = "2019",
+	NOTE = "Accessed on 2019-01-23"
+}
+
+@MISC{WallisDerivation,
+	HOWPUBLISHED = "\url{http://mathworld.wolfram.com/WallisFormula.html}",
+	AUTHOR = "Sondow, Jonathan and Weisstein, Eric W.",
+	TITLE = "Wallis Formula.",
+	MONTH = "",
+	YEAR = "",
+	NOTE = "From MathWorld--A Wolfram Web Resource. Accessed on 2019-01-23"
+}
+
+@article{WallisQuantum,
+issn = {0022-2488},
+abstract = {A famous pre-Newtonian formula for π is obtained directly from the variational approach to the spectrum of the hydrogen atom in spaces of arbitrary dimensions greater than one, including the physical three dimensions.},
+journal = {Journal of Mathematical Physics},
+volume = {56},
+publisher = {AIP Publishing LLC},
+number = {11},
+year = {2015},
+title = {Quantum mechanical derivation of the Wallis formula for π},
+language = {eng},
+author = {Friedmann, Tamar and Hagen, C. R.},
+keywords = {Articles},
+}
+
+@MISC{LeibnizDerivation,
+	HOWPUBLISHED = "\url{http://www.ams.org/publicoutreach/feature-column/fcarc-pi-calc}",
+	AUTHOR = "Weintraub, Steven",
+	TITLE = "Calculating Pi using Elementary Calculus",
+	MONTH = "",
+	YEAR = "",
+	NOTE = "Accessed on 2019-01-23"
+}

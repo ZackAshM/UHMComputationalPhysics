@@ -1,0 +1,58 @@
+\relax 
+\newlabel{FirstPage}{{}{1}{}{}{}}
+\@writefile{toc}{\contentsline {title}{PHYS 305 Assignment 7: Numerical Solutions to Differential Equations via Euler and Runge-Kutta Methods.}{1}{}}
+\@writefile{toc}{\contentsline {abstract}{Abstract}{1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}Introduction and Overview}{1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {}Mass on a Spring}{1}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Simple Harmonic Oscillator solved using Euler's method at step sizes of $\SI {1}{\ms }$. Note that the results are under the true lines. A fit to the numerical results gives the frequency $\omega = \SI {0.999997 \pm 0.000005}{\radian \per \s }$ and a phase $\delta = \SI {0.0009 \pm 0.0001}{\radian }$, which agrees extremely well with the true values of $\omega = \SI {1}{\radian \per \s }$ and $\delta = 0$.}}{1}{}}
+\newlabel{gr:harmosc1}{{1}{1}{}{}{}}
+\newlabel{eqn:sprx}{{1}{1}{}{}{}}
+\newlabel{eqn:sprv}{{2}{1}{}{}{}}
+\newlabel{eqn:sprsol}{{4}{1}{}{}{}}
+\newlabel{eqn:eners}{{5}{1}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {}Large Amplitude Pendulum}{1}{}}
+\newlabel{eqn:pend1}{{6}{1}{}{}{}}
+\newlabel{eqn:pend2}{{7}{1}{}{}{}}
+\citation{Euler}
+\citation{Laulima}
+\citation{RK}
+\newlabel{eqn:pendener}{{8}{2}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}The Computational Problem}{2}{}}
+\newlabel{eqn:euler}{{9}{2}{}{}{}}
+\newlabel{eqn:rk2main}{{10}{2}{}{}{}}
+\newlabel{eqn:rk2k2}{{11}{2}{}{}{}}
+\newlabel{eqn:rk2k1}{{12}{2}{}{}{}}
+\newlabel{eqn:fracener}{{19}{2}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {}Programming (Mass on a Spring)}{2}{}}
+\citation{precision}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Fractional differences of the calculated energies from the results of Euler's method. At low enough step sizes, the difference is fairly linear through time. We also see that the differences increase by a factor of 10 and then 100 going from $dt = \SI {1}{\mm }$ to $\SI {10}{\mm }$ and $dt = \SI {10}{\mm }$ to $\SI {300}{\mm }$.}}{3}{}}
+\newlabel{gr:hdE}{{2}{3}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces A comparison of fractional differences in calculated energies from the results of Euler's method and second-order Runge-Kutta method. It is evident that the RK2 method is better than Euler's method in this numerical evaluation, as the RK2 differences look negligible compared to the Euler differences.}}{3}{}}
+\newlabel{gr:ev2}{{3}{3}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Similar to Figure 2{}{}{}\hbox {}. We can still see a linear behavior, with the last plot more linear than the last plot for the Euler method results. Also, the change in fractional difference for varying step sizes is more significant for the RK2 method.}}{4}{}}
+\newlabel{gr:rk2dE}{{4}{4}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces A comparison of the RK2 and RK4 methods. Like the comparison between Euler and RK2, the RK4 results are negligible relative to the RK2 results, and thus the RK4 method is better.}}{4}{}}
+\newlabel{gr:2v4}{{5}{4}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}Results and Graphs}{4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}Discussion and Analysis}{4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {}Mass on a Spring}{4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Similar to Figures 2{}{}{}\hbox {} and 4{}{}{}\hbox {}. We get the trend of linear fractional difference for the last two plots, but not for when $dt = \SI {1}{\mm }$. We can see that it is on the order of $10^{-15}$, far less than the results from the other methods, and the differences across varying step sizes are even more significant.}}{5}{}}
+\newlabel{gr:rk4dE}{{6}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Comparing the RK4 solution to the 'true' solution using small angle approximation. It is clear that the small angle approximation is very different from the real solution. We can see that the numerical evaluation at smaller angles does begin to converge to an agreement with the small angle approximation solution, but the approximation breaks over time, as we would expect.}}{5}{}}
+\newlabel{gr:pendfunc}{{7}{5}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces On top, we can see the fractional energy differences for the pendulum over one period using RK4. We can also see how it compares to the results of the other methods (Euler, RK2) below that. We can see that there is no longer a linear behavior, but more so recognizable and non-fluctuating behavior. The comparison also shows how far the results are from each other, each making the previous negligible.}}{6}{}}
+\newlabel{gr:penddE}{{8}{6}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces The period of the $\theta (t)$ functions obtained from the RK4 method for varying starting amplitudes/angle.}}{6}{}}
+\newlabel{gr:pendthetavT}{{9}{6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {}Large Amplitude Pendulum}{6}{}}
+\bibdata{euler-rungekuttaNotes,bib7}
+\bibcite{Laulima}{{1}{2019}{{Gorham}}{{}}}
+\bibcite{Euler}{{2}{2007}{{Landau}}{{}}}
+\bibcite{precision}{{3}{2019}{{Martin}}{{}}}
+\bibcite{RK}{{4}{}{{Weisstein}}{{}}}
+\bibstyle{aipauth4-1}
+\@writefile{toc}{\contentsline {section}{\numberline {}Conclusions}{7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}Acknowledgments}{7}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {}References}{7}{}}
+\newlabel{LastBibItem}{{4}{7}{}{}{}}
+\newlabel{LastPage}{{}{7}{}{}{}}
